@@ -131,7 +131,7 @@ for idx, cluster in enumerate(best_idx):
     cluster_docs, cluster_words = cocluster.get_indices(cluster)
     if not len(cluster_docs) or not len(cluster_words):
         continue
-
+##0101
     # categories
     counter = defaultdict(int)
     for i in cluster_docs:
